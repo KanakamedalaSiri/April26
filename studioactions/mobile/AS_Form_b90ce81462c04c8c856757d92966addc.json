@@ -1,0 +1,35 @@
+{
+    "AS_Form_b90ce81462c04c8c856757d92966addc": {
+        "id": "AS_Form_b90ce81462c04c8c856757d92966addc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c467e4eecba941b0a52ac5834089495b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__e6e9883dd194453a8776eff8d67aece5",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "Form2",
+            "formKUID": "c56b87915e9540ec856bd157439166e7",
+            "projectName": "April26",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}
